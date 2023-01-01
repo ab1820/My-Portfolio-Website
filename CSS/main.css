@@ -36,3 +36,22 @@ body {
   border: 1px solid #8351a8;
   width: 8.25rem;
 }
+
+.grid-container {
+  display: flex;
+  margin: 10rem;
+  justify-content: center;
+}
+
+.nav-wrapper {
+  max-width: 16rem;
+  text-align: center;
+}
+
+.nav-wrapper ul {
+  text-align: left;
+}
+
+.main-content {
+
+}
