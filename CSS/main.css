@@ -27,7 +27,7 @@ body {
   background-repeat: repeat;
   background-color: var(--background-color);
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
+  font-size: 17px;
   color: var(--paragraph-color);
   overflow: hidden;
 }
@@ -91,7 +91,7 @@ ul li a:hover {
 
 ul li {
   list-style-type: none;
-  line-height: 2;
+  line-height: 1.8;
   margin-left: -2rem;
 }
 
@@ -122,16 +122,6 @@ ul li {
   max-width: 800px;
   max-height: 620px;
   opacity: 0.1;
-}
-
-/* .content {
-  display: flex;
-} */
-
-.main-content {
-  margin-bottom: 0;
-  max-height: 50vh;
-  min-height: 50vh;
 }
 
 h1 {
@@ -172,9 +162,59 @@ h1 {
 
 .skills {
   margin-left: 6rem;
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 .syntax {
   width: 2rem;
+  vertical-align: middle;
+  opacity: 1;
+}
+
+p {
+  display: inline-block;
+  padding: 0;
+}
+
+.first {
+  padding-left: 1rem;
+  margin-top: 2rem;
+}
+
+.second {
+  padding-left: 3.5rem;
+  margin-top: 1.5rem;
+}
+
+.second p {
+  width: 60%;
+}
+
+div.second img.syntax {
+  vertical-align: top;
+  margin-left: -0.6rem;
+}
+
+.third {
+  margin-top: 1.5rem;
+  padding-left: 6rem;
+}
+
+.fourth {
+  padding-left: 9rem;
+  margin-top: 1.5rem;
+}
+
+.fifth {
+  padding-left: 14rem;
+  margin-top: 1.5rem;
+}
+
+.fifth p {
+  width: 70%;
+}
+
+div.fifth img.syntax {
+  vertical-align: top;
+  margin-left: -2rem;
 }
