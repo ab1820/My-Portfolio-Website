@@ -29,12 +29,15 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   color: var(--paragraph-color);
+  min-height: 100vh;
+  max-height: 100vh;
 }
 
 .my-image {
   border-radius: 50%;
   border: 1px solid #8351a8;
   width: 8.25rem;
+  margin-top: 4rem;
 }
 
 .grid-container {
@@ -43,15 +46,57 @@ body {
   justify-content: center;
 }
 
+/* NAVIGATION STYLING */
 .nav-wrapper {
   max-width: 16rem;
   text-align: center;
+  margin-right: 2rem;
 }
 
 .nav-wrapper ul {
   text-align: left;
 }
 
+.nav-wrapper h2 {
+  font-family: 'Allura', cursive;
+  color: var(--heading-color);
+  font-size: 3.6rem;
+  margin-bottom: -1.5rem;
+  margin-top: 3rem;
+}
+
+.arrow-line-nav {
+  max-width: 11rem;
+  opacity: 0.5;
+  color: var(--paragraph-color);
+  margin: 0;
+}
+
+ul li a {
+  text-decoration: none;
+  color: var(--paragraph-color);
+  font-family: 'Tangerine', cursive;
+  font-size: 1.8rem;
+  vertical-align: middle;
+}
+
+ul li a:hover {
+  color: var(--pink-border);
+}
+
+ul li {
+  list-style-type: none;
+  line-height: 2.5;
+  margin-left: -2rem;
+}
+
+.nav-arrow {
+  width: 2rem;
+  margin-right: 0.2rem;
+  vertical-align: middle;
+}
+
+/* MAIN CONTENT STYLING */
 .main-content {
 
 }
