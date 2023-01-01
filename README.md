@@ -42,3 +42,7 @@ Colors:
 - CSS3
 - CSS Grid
 - Javascript
+
+## Preview of Design:
+
+![Homepage](https://user-images.githubusercontent.com/114027684/210180564-1c514f56-d938-41fd-ba12-2340720308d7.png)
