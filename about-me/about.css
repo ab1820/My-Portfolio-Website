@@ -2,6 +2,25 @@
   display: flex;
   margin: auto;
   margin-top: calc(100vh - 735px);
-  margin-left: calc(100vw - 1955px);
+  margin-left: calc(100vw - 1497px);
   justify-content: center;
+}
+
+h1 {
+  margin-left: 14rem;
+}
+
+.main-content-arrow-1 {
+  margin-left: 18rem;
+}
+
+p {
+  width: 55%;
+  padding: 0.8rem 2rem;
+  text-align: left;
+  line-height: 1.4;
+}
+
+br {
+  margin-bottom: 1rem;
 }
