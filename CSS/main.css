@@ -85,9 +85,12 @@ ul li a {
 }
 
 ul li a:hover {
+  display: inline-block;
   color: var(--pink-border);
+  transform: translateX(5%);
+  transition-timing-function: ease-in;
+  transition-duration: 250ms;
 }
-
 
 ul li {
   list-style-type: none;
