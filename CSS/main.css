@@ -35,10 +35,10 @@ body {
 
 .grid-container {
   display: flex;
-  margin: 10rem;
-  margin-left: 18rem;
+  margin: auto;
+  margin-top: calc(100vh - 735px);
+  margin-left: calc(100vw - 1650px);
   justify-content: center;
-  margin-bottom: 0;
 }
 
 /* NAVIGATION STYLING */
@@ -47,7 +47,6 @@ body {
   text-align: center;
   margin-right: 2rem;
   margin-top: -2rem;
-  margin-bottom: 0;
 }
 
 .my-image {
@@ -94,7 +93,7 @@ ul li a:hover {
 
 ul li {
   list-style-type: none;
-  line-height: 1.8;
+  line-height: 1.5;
   margin-left: -2rem;
 }
 

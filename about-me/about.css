@@ -1,0 +1,7 @@
+.grid-container {
+  display: flex;
+  margin: auto;
+  margin-top: calc(100vh - 735px);
+  margin-left: calc(100vw - 1955px);
+  justify-content: center;
+}
