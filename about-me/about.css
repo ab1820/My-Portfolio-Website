@@ -24,3 +24,61 @@ p {
 br {
   margin-bottom: 1rem;
 }
+
+/* IMAGES STYLING */
+.wrapper {
+  width: 50%;
+  margin: 10px auto;
+}
+
+div.gallery {
+  margin-top: -15px;
+}
+
+div.gallery ul {
+  list-style-type: none;
+  margin-left: -26rem;
+}
+
+/* ANIMATION FOR IMAGES */
+div.gallery ul li,
+div.gallery li img {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+div.gallery ul li {
+  position: relative;
+  float: left;
+  width: 130px;
+  height: 130px;
+  margin: 5px;
+  padding: 5px;
+  z-index: 0;
+}
+
+div.gallery ul li:hover {
+  z-index: 5;
+}
+
+div.gallery ul li img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 1px solid #4d7b93;
+  padding: 5px;
+  width: 130px;
+  height: 130px;
+  background: #4d7a9346;
+}
+
+div.gallery ul li img:hover {
+  width: 200px;
+  height: 200px;
+  margin-top: -130px;
+  margin-left: -130px;
+  top: 65%;
+  left: 65%;
+}
