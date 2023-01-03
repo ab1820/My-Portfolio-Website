@@ -82,3 +82,16 @@ div.gallery ul li img:hover {
   top: 65%;
   left: 65%;
 }
+
+/* TOOLTIPS */
+.tooltip-text {
+  display: none;
+  position: absolute;
+  top: -60px;
+  z-index: 1;
+  background: #4d7b93;
+  color: #fff;
+  padding: 8px;
+  border-radius: 2px;
+
+}
