@@ -1,0 +1,20 @@
+.main-content-arrow-1 {
+  position: relative;
+  z-index: 2;
+  margin-top: 1.7rem;
+}
+
+.main-content-arrow-2 {
+  margin-top: 26.7rem;
+}
+
+.grid-container {
+  margin-left: -22.1rem;
+}
+
+h1 {
+  margin-top: 74.2rem;
+  position: absolute;
+  z-index: 2;
+  margin-left: 17.5rem;
+}
