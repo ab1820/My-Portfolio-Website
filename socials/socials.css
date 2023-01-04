@@ -1,0 +1,67 @@
+.codecademy {
+  z-index: 2;
+  position: absolute;
+  margin-top: -30rem;
+  margin-left: 2rem;
+  width: 50px;
+}
+
+.facebook {
+  position: absolute;
+  z-index: 2;
+  margin-top: -26rem;
+  width: 45px;
+  margin-left: 2rem;
+}
+
+.freecodecamp {
+  position: absolute;
+  z-index: 2;
+  width: 50px;
+  margin-top: -22rem;
+  margin-left: 2rem;
+}
+
+.github {
+  position: absolute;
+  z-index: 2;
+  width: 45px;
+  margin-left: 2rem;
+  margin-top: -18rem;
+}
+
+.linkedin {
+  position: absolute;
+  z-index: 2;
+  width: 45px;
+  margin-top: -14rem;
+  margin-left: 2rem;
+}
+
+.codepen {
+  position: absolute;
+  z-index: 2;
+  margin-top: -10rem;
+  margin-left: 2rem;
+  width: 45px;
+}
+
+.frontend {
+  position: absolute;
+  z-index: 2;
+  margin-top: -6rem;
+  margin-left: 2rem;
+  width: 45px;
+}
+
+.main-content-arrow-2 {
+  margin-top: 26rem;
+}
+
+h1 {
+  margin-left: 13rem;
+}
+
+.grid-container {
+  margin-left: -2.1rem;
+}
