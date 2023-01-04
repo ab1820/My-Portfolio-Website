@@ -1,3 +1,4 @@
+/* CODECADEMY STYLING */
 .codecademy {
   z-index: 2;
   position: absolute;
@@ -6,6 +7,46 @@
   width: 50px;
 }
 
+.codecademy-profile {
+  margin-top: -29rem;
+  position: absolute;
+  z-index: 2;
+  margin-left: 7rem;
+  font-weight: bold;
+}
+
+.codecademy-syntax {
+  position: absolute;
+  z-index: 2;
+  margin-top: -29.4rem;
+  margin-left: 13rem;
+  width: 2rem;
+}
+
+.codecademy-link {
+  position: absolute;
+  z-index: 2;
+  margin-top: -29rem;
+  margin-left: 16rem;
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+a.codecademy-link:hover {
+  color: var(--heading-color);
+  transition-timing-function: ease-in-out;
+  transition-duration: 250ms;
+  text-shadow: 0 0 5px var(--heading-color);
+}
+
+.codecademy-syntax-2 {
+  margin-left: 24rem;
+  position: absolute;
+  width: 2rem;
+  margin-top: -29.4rem;
+}
+
+/* FACEBOOK STYLING */
 .facebook {
   position: absolute;
   z-index: 2;
@@ -65,3 +106,4 @@ h1 {
 .grid-container {
   margin-left: -2.1rem;
 }
+
