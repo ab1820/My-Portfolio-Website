@@ -38,7 +38,8 @@ a.freecodecamp-link:hover,
 a.github-link:hover,
 a.linkedin-link:hover,
 a.codepen-link:hover,
-a.frontend-link:hover {
+a.frontend-link:hover,
+.project-link:hover {
   color: var(--link-color);
   transition-timing-function: ease-in-out;
   transition-duration: 250ms;
