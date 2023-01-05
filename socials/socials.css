@@ -259,6 +259,7 @@ a.frontend-link:hover,
 
 h1 {
   margin-left: 13rem;
+  text-shadow: -1px -1px 15px var(--link-color);
 }
 
 .grid-container {

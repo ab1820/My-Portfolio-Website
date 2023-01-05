@@ -8,6 +8,7 @@
 
 h1 {
   margin-left: 14rem;
+  text-shadow: -1px -1px 15px var(--link-color);
 }
 
 .main-content-arrow-1 {

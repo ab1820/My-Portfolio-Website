@@ -134,6 +134,7 @@ h1 {
   font-size: 5rem;
   margin-left: 12%;
   transform: translateY(-1210%);
+  text-shadow: -1px -1px 15px var(--link-color);
 }
 
 .main-content-arrow-1 {

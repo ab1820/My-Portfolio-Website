@@ -17,6 +17,7 @@ h1 {
   position: absolute;
   z-index: 2;
   margin-left: 17.5rem;
+  text-shadow: -1px -1px 15px var(--link-color);
 }
 
 .purple-box {

@@ -1,0 +1,25 @@
+.purple-box {
+  margin-top: 0.1rem;
+  position: relative;
+}
+
+.grid-container {
+  margin-left: -2.2rem;
+}
+
+.main-content-arrow-1 {
+  top: 121.5rem;
+  position: absolute;
+}
+
+.main-content-arrow-2 {
+  position: absolute;
+  top: 13.6rem;
+}
+
+h1 {
+  top: 85.5rem;
+  position: absolute;
+  left: 40rem;
+  text-shadow: -1px -1px 15px var(--link-color);
+}
