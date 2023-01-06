@@ -60,12 +60,14 @@
       <img class="syntax-form-2" src="../images/syntax.svg" alt="" class="src">
       <h2>Send me a message!</h2>
       <img class="syntax-form" src="../images/syntax.svg" alt="" class="src">
-      <form action="#" method="POST">
+      <form action="mailto:amandabillion@hotmail.com" method="POST" enctype="text/plain">
         <input type="text" name="name" placeholder="Name" id="name">
         <input type="email" name="email" id="email" placeholder="Email">
         <input type="text" name="message" id="message" placeholder="Write your message here...">
         <textarea id="message" placeholder="Write your message here..."></textarea>
-        <input type="button" id="button" name="button">
+        <i class="fa-regular fa-paper-plane"></i>
+        <button id="button" name="button" value="Send"><span class="send">Send</span></button>
+        <!-- <input type="button" id="button" name="button" value="Send"> -->
       </form>
     </section>
 

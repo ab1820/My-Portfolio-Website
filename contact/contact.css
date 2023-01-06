@@ -63,7 +63,7 @@ h1 {
 
 #button {
   margin-top: 28rem;
-  margin-left: -13rem;
+  margin-left: -15rem;
   background-color: var(--heading-color);
   border-radius: 4rem;
   outline: none;
@@ -72,6 +72,20 @@ h1 {
   padding: 10px 70px;
   position: absolute;
   z-index: 3;
+  font-weight: 500;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+#button:hover {
+  background-color: #b55dbbc0;
+  border: 2px solid rgba(240, 46, 170, 0.4);
+  box-shadow: rgba(240, 46, 170, 0.4) -3px 3px, rgba(240, 46, 170, 0.3) -5px 5px, rgba(240, 46, 170, 0.2) -10px 10px, rgba(240, 46, 170, 0.1) -15px 15px, rgba(240, 46, 170, 0.05) -20px 20px;
+  transition: all 350ms ease-in-out;
+}
+
+#button:active {
+  background-color: #4d7a93b2;
 }
 
 section.contact-form h2 {
@@ -135,4 +149,15 @@ section.contact-form h2 {
 .my-email {
   padding-left: 1rem;
   vertical-align: super;
+}
+
+.fa-regular {
+  position: absolute;
+  z-index: 4;
+  margin-top: 28.9rem;
+  margin-left: -12rem;
+}
+
+.send {
+  margin-left: 1rem;
 }
