@@ -25,18 +25,18 @@ h1 {
 }
 
 #name {
-  border-radius: 3rem;
-  width: 25rem;
-  height: 2rem;
-  border: 2px solid var(--link-color);
   margin-left: -48rem;
   margin-top: 15rem;
-  position: absolute;
-  z-index: 3;
-  padding-left: 1rem;
 }
 
 #email {
+  margin-top: 19rem;
+  margin-left: -48rem;
+}
+
+#message,
+#email,
+#name {
   border-radius: 2rem;
   width: 25rem;
   height: 2rem;
@@ -44,12 +44,30 @@ h1 {
   position: absolute;
   z-index: 3;
   padding-left: 1rem;
-  margin-top: 19rem;
+}
+
+#message {
+  margin-top: 23rem;
   margin-left: -48rem;
+  padding: 30px;
 }
 
 #name:focus,
-#email:focus {
+#email:focus,
+#message:focus {
   border: 2px solid var(--heading-color);
   outline: none;
+}
+
+#button {
+  margin-top: 26.5rem;
+  margin-left: -15rem;
+  background-color: var(--heading-color);
+  border-radius: 4rem;
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0.541);
+  color: #fff;
+  padding: 10px 70px;
+  position: absolute;
+  z-index: 3;
 }
