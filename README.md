@@ -1,5 +1,7 @@
 # Portfolio Website Layout 2.1
 
+**None responsive as of yet - work in progress!**
+
 ## Homepage:
 - My image
 - What I do
