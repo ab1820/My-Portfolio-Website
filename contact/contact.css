@@ -23,3 +23,33 @@ h1 {
   left: 40rem;
   text-shadow: -1px -1px 15px var(--link-color);
 }
+
+#name {
+  border-radius: 3rem;
+  width: 25rem;
+  height: 2rem;
+  border: 2px solid var(--link-color);
+  margin-left: -48rem;
+  margin-top: 15rem;
+  position: absolute;
+  z-index: 3;
+  padding-left: 1rem;
+}
+
+#email {
+  border-radius: 2rem;
+  width: 25rem;
+  height: 2rem;
+  border: 2px solid var(--link-color);
+  position: absolute;
+  z-index: 3;
+  padding-left: 1rem;
+  margin-top: 19rem;
+  margin-left: -48rem;
+}
+
+#name:focus,
+#email:focus {
+  border: 2px solid var(--heading-color);
+  outline: none;
+}
