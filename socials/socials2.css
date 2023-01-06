@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+:root {
+  --background-color: #2e0f38;
+  --pink-border: #b45dbb;
+  --paragraph-color: #ffffff;
+  --heading-color: #b45dbb;
+  --purple-border: #8351a8;
+  --link-color: #4d7b93;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+}
+
+body {
+  background: url(../images/background.png);
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-color: var(--background-color);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  color: var(--paragraph-color);
+  /* overflow: hidden; */
+}
+
+a.codecademy-link:hover,
+a.facebook-link:hover,
+a.freecodecamp-link:hover,
+a.github-link:hover,
+a.linkedin-link:hover,
+a.codepen-link:hover,
+a.frontend-link:hover,
+.project-link:hover {
+  color: var(--link-color);
+  transition-timing-function: ease-in-out;
+  transition-duration: 250ms;
+  text-shadow: 0 0 5px var(--link-color);
+}
+
+.purple-box {
+  max-width: 800px;
+  min-width: 800px;
+  border: 4px solid var(--pink-border);
+  opacity: 0.2;
+  max-height: 550px;
+  min-height: 550px;
+  background-color: var(--purple-border);
+  border-radius: 1rem;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.nums-and-ones {
+  /* transform: translateY(-196%); */
+  margin-top: -37rem;
+  min-width: 800px;
+  min-height: 620px;
+  max-width: 800px;
+  max-height: 620px;
+  opacity: 0.1;
+  position: absolute;
+}
+
+/* NAVIGATION STYLING */
+.nav-wrapper {
+  max-width: 16rem;
+  text-align: center;
+  margin-right: 2rem;
+  margin-top: -2rem;
+}
+
+.my-image {
+  border-radius: 50%;
+  border: 1px solid #8351a8;
+  width: 11rem;
+  margin-top: 3.5rem;
+}
+
+
+.nav-wrapper ul {
+  text-align: left;
+}
+
+.nav-wrapper h2 {
+  font-family: 'Allura', cursive;
+  color: var(--heading-color);
+  font-size: 3.6rem;
+  margin-bottom: -2.2rem;
+  margin-top: 1.5rem;
+}
+
+.arrow-line-nav {
+  max-width: 13rem;
+  opacity: 0.3;
+}
+
+ul li a {
+  text-decoration: none;
+  color: var(--paragraph-color);
+  font-family: 'Tangerine', cursive;
+  font-size: 1.8rem;
+  vertical-align: middle;
+  font-weight: 700;
+}
+
+ul li a:hover {
+  display: inline-block;
+  color: var(--pink-border);
+  transform: translateX(5%);
+  transition-timing-function: ease-in;
+  transition-duration: 250ms;
+}
+
+ul li {
+  list-style-type: none;
+  line-height: 1.5;
+  margin-left: -2rem;
+}
+
+.nav-arrow {
+  width: 2rem;
+  margin-right: 0.2rem;
+  vertical-align: middle;
+}
+
+/* GRID STYLING */
+
+.grid-container {
+  display: grid;
+  grid-template-rows: repeat(7, 75px);
+  grid-template-columns: 227px 800px;
+  gap: 5px;
+  margin: 184px 423px;
+}
+
+/* GRID ITEM 1 */
+
+.grid-item1 {
+  position: absolute;
+  z-index: 2;
+  margin-top: -31rem;
+  display: inline-flex;
+  align-items: center;
+  padding-left: 2rem;
+
+}
+
+.codecademy {
+  width: 50px;
+}
+
+.codecademy-profile {
+  font-weight: bold;
+  padding-left: 1rem;
+}
+
+.codecademy-link {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+.codecademy-syntax {
+  padding-left: 1rem;
+  width: 2rem;
+}
+
+.codecademy-syntax-2 {
+  width: 2rem;
+}
+
+/* GRID-ITEM-2 */
+
+.grid-item2 {
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+  margin-top: -27rem;
+  position: absolute;
+  z-index: 2;
+}
+
+.facebook {
+  width: 45px;
+}
+
+.facebook-profile {
+  font-weight: bold;
+  padding-left: 1.4rem;
+}
+
+.syntax-2 {
+  width: 2rem;
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+}
+
+.facebook-link {
+  padding-right: 0.5rem;
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+.syntax-3 {
+  width: 2rem;
+}
+
+/* FREECODECAMP */
+.grid-item3,
+.grid-item4,
+.grid-item5,
+.grid-item6,
+.grid-item7 {
+  position: absolute;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+}
+
+.grid-item3 {
+  margin-top: -23rem;
+  margin-left: 2rem;
+}
+
+.freecodecamp {
+  width: 45px;
+  padding-right: 1rem;
+}
+
+.freecodecamp-profile {
+  font-weight: bold;
+  padding-right: 1rem;
+  padding-left: 0.5rem;
+}
+
+.fcc-syntax1 {
+  width: 2rem;
+  padding-right: 0.5rem;
+}
+
+.fcc-syntax2 {
+  width: 2rem;
+  padding-left: 0.5rem;
+}
+
+.freecodecamp-link {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+/* GITHUB */
+.grid-item4 {
+  margin-top: -19rem;
+  margin-left: 2rem;
+}
+
+.github {
+  width: 45px;
+  padding-right: 1rem;
+}
+
+.github-profile {
+  font-weight: bold;
+  padding-left: 0.5rem;
+}
+
+.github-syntax1 {
+  width: 2rem;
+  padding-left: 1rem;
+  padding-right: 0.5rem;
+}
+
+.github-syntax2 {
+  width: 2rem;
+  padding-left: 0.5rem;
+}
+
+/* LINKEDIN */
+.grid-item5 {
+  margin-left: 2rem;
+  margin-top: -14.5rem;
+}
+
+.linkedin {
+  width: 40px;
+}
+
+.linkedin-profile {
+  font-weight: bold;
+  padding-left: 1.7rem;
+}
+
+.linkedin-syntax1 {
+  width: 2rem;
+  padding-left: 1rem;
+}
+
+.linkedin-syntax2 {
+  width: 2rem;
+}
+
+.linkedin-link {
+  padding: 0 0.5rem;
+}
+
+/* CODEPEN */
+.grid-item6 {
+  margin-left: 2rem;
+  margin-top: -10.5rem;
+}
+
+.codepen {
+  width: 50px;
+}
+
+.codepen-profile {
+  font-weight: bold;
+  padding-left: 1.1rem;
+}
+
+.codepen-syntax1 {
+  width: 2rem;
+  padding-left: 1rem;
+}
+
+.codepen-syntax2 {
+  width: 2rem;
+}
+
+.codepen-link {
+  padding: 0 0.5rem;
+}
+
+/* FRONTEND MENTOR */
+.grid-item7 {
+  margin-left: 2rem;
+  margin-top: -6.2rem;
+}
+
+.frontend {
+  width: 45px;
+}
+
+.frontend-profile {
+  font-weight: bold;
+  padding-left: 1.5rem;
+}
+
+.frontend-link {
+  padding: 0 0.5rem;
+}
+
+.frontend-syntax1 {
+  width: 2rem;
+  padding-left: 1rem;
+}
+
+.frontend-syntax2 {
+  width: 2rem;
+}
+
+.github-link,
+.linkedin-link,
+.codepen-link,
+.frontend-link {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+h1 {
+  color: var(--heading-color);
+  font-family: 'Allura', cursive;
+  font-size: 5rem;
+  font-weight: 400;
+  text-shadow: -1px -1px 15px var(--link-color);
+  position: absolute;
+  z-index: 2;
+  margin-top: -37rem;
+  margin-left: 14rem;
+}
+
+.main-content-arrow-1 {
+  position: absolute;
+  z-index: 1;
+  margin-top: -33.5rem;
+  margin-left: 18rem;
+  opacity: 0.3;
+}
+
+.main-content-arrow-2 {
+  position: absolute;
+  z-index: 1;
+  margin-top: -4rem;
+  margin-left: 18rem;
+  opacity: 0.3;
+}
