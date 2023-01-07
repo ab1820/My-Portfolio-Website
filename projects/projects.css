@@ -189,7 +189,10 @@ a.btn-link {
 }
 
 a.btn-link:hover {
-    color: #000;
+    color: #fff;
+    transition-timing-function: ease-in-out;
+  transition-duration: 250ms;
+    text-shadow: 2px 2px 5px var(--link-color);
     font-weight: bold;
 }
 
@@ -224,7 +227,7 @@ a.btn-link:hover {
 
 .card_content {
   padding: 1rem;
-  background: linear-gradient(to bottom left, rgba(254, 25, 170, 0.8) 60%, rgba(14, 55, 241, 0.8) 100%);
+  background: linear-gradient(to bottom left, #b45dbb 40%, #4d7b93 90%);
   height: 100%;
 }
 
@@ -249,12 +252,66 @@ a.btn-link:hover {
   font-family: 'Montserrat', sans-serif;
 }
 
+.tindog-text {
+  padding-bottom: 0.7rem;
+}
+
 .btn-link {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
 }
 
 
+/* SLIDESHOW */
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #4d7b93;
+  text-shadow: 5px 5px 5px #000;
+  font-weight: bold;
+  font-size: 25px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 31.5rem;
+  border-radius: 3px 0 0 3px;
+}
+/* Position the "prev button" to the left */
+.prev {
+  left: 43rem;
+}
+
+/* ON HOVER */
+.next:hover,
+.prev:hover {
+  color: var(--heading-color);
+}
+
+.next:active,
+.prev:active {
+  transform: translateY(5%);
+  color: var(--purple-border);
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
 
 
 

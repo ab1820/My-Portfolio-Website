@@ -48,10 +48,12 @@
 <!-- NEW PROJECTS SECTION -->
 
 <div class="main">
+
+<div class="slideshow-contanier">
   <ul class="cards">
     <li class="cards_item">
-      <div class="card">
-        <div class="card_image"><img class="images" src="../images/random-quote.png" alt="tindog website" width="500" height="300"></div>
+      <div class="card fade">
+        <div class="card_image"><img class="images fade" src="../images/random-quote.png" alt="tindog website" width="500" height="300"></div>
         <div class="card_content">
           <h2 class="card_title">Random Quote Generator</h2>
           <p class="card_text">A project in HTML, CSS, JS in node.js. Fully functional, well-designed.</p>
@@ -62,18 +64,20 @@
     
     
     <li class="cards_item">
-      <div class="card">
-        <div class="card_image"><img class="images tindog" src="../images/tindog-social.png" alt="image"></div>
+      <div class="card fade">
+        <div class="card_image"><img class="images tindog fade" src="../images/tindog-social.png" alt="image"></div>
         <div class="card_content">
           <h2 class="card_title">TinDog</h2>
-          <p class="card_text">TinDog was the first project website I created. It is fully responsive, but a static webpage only, with
+          <p class="card_text tindog-text">TinDog was the first project website I created. It is fully responsive, but a static webpage only, with
             HTML and CSS.<br></p>
           <button class="btn card_btn"><a class="btn-link" href="#">Read More</a></button>
         </div>
       </div>
     </li>
     </ul>
-
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
 
 
       <!-- PROJECTS CAROUSEL -->
