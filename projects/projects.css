@@ -158,8 +158,12 @@ b {
   max-width: 100%;
   /* vertical-align: middle; */
   margin-bottom: -0.5rem;
+  object-fit: fill;
 }
 
+.tindog {
+  object-fit: fill;
+}
 
 .btn {
   color: #ffffff;
