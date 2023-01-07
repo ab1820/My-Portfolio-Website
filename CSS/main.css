@@ -84,7 +84,7 @@ ul li a {
   font-weight: 700;
 }
 
-ul li a:hover :not(.btn-link) {
+.nav-links:hover {
   display: inline-block;
   color: var(--pink-border);
   transform: translateX(5%);

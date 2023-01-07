@@ -183,12 +183,12 @@ b {
   background-color: rgba(255, 255, 255, 0.12);
 }
 
-a {
+a.btn-link {
     text-decoration: none;
     color: #fff;
 }
 
-a:hover {
+a.btn-link:hover {
     color: #000;
     font-weight: bold;
 }
@@ -232,11 +232,12 @@ a:hover {
   color: #ffffff;
   font-size: 1.9rem;
   font-weight: 700;
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
   text-transform: capitalize;
   margin: 0px;
   margin-bottom: 0.2rem;
   font-family: 'Allura', cursive;
+  line-height: 1;
 }
 
 .card_text {
