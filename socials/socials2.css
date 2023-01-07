@@ -58,7 +58,7 @@ a.frontend-link:hover,
 
 .nums-and-ones {
   /* transform: translateY(-196%); */
-  margin-top: -37rem;
+  margin-top: -37.2rem;
   min-width: 800px;
   min-height: 620px;
   max-width: 800px;
@@ -397,7 +397,15 @@ h1 {
 .main-content-arrow-2 {
   position: absolute;
   z-index: 1;
-  margin-top: -4rem;
+  margin-top: -3.4rem;
   margin-left: 18rem;
   opacity: 0.3;
+}
+
+.nav-wrapper h2 {
+  margin-left: 0.3rem;
+}
+
+.my-image {
+  margin-left: 0.3rem;
 }
