@@ -26,18 +26,17 @@ h1 {
 
 
 /* NEW PROJECT LAYOUT */
-/* .mySlides {
-  display: none;
-} */
 
-.images {
+.images,
+.images2 {
   height: 12rem;
   max-width: 100%;
   margin-bottom: -0.5rem;
   object-fit: cover;
 }
 
-.btn {
+.btn,
+.btn2 {
   color: #ffffff;
   padding: 0.8rem;
   font-size: 1rem;
@@ -51,15 +50,18 @@ h1 {
   background: transparent;
 }
 
-.btn:hover {
+.btn:hover,
+.btn2:hover {
   background-color: rgba(255, 255, 255, 0.12);
 }
 
-a.btn-link {
+a.btn-link,
+a.btn-link2 {
     text-decoration: none;
     color: #fff;
 }
 
+a.btn-link:hover,
 a.btn-link:hover {
     color: #fff;
     transition-timing-function: ease-in-out;
@@ -81,14 +83,29 @@ a.btn-link:hover {
   min-width: 65rem;
 }
 
-.cards_item {
+.cards2 {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: -70.5rem;
+  margin-left: 27rem;
+  position: absolute;
+  max-width: 50rem;
+  min-width: 65rem;
+}
+
+.cards_item,
+.cards_item2 {
   display: flex;
   padding: 1rem;
   margin-right: 2rem;
   width: 27.5%;
 }
 
-.card {
+.card,
+.card2 {
   background-color: #000;
   border-radius: 0.25rem;
   display: flex;
@@ -97,13 +114,15 @@ a.btn-link:hover {
   height: 26rem;
 }
 
-.card_content {
+.card_content,
+.card_content2 {
   padding: 1rem;
   background: linear-gradient(to bottom left, #b45dbb 40%, #4d7b93 90%);
   height: 100%;
 }
 
-.card_title {
+.card_title,
+.card_title2 {
   color: #ffffff;
   font-size: 1.9rem;
   font-weight: 700;
@@ -115,7 +134,8 @@ a.btn-link:hover {
   line-height: 1;
 }
 
-.card_text {
+.card_text,
+.card_text2 {
   color: #ffffff;
   font-size: 0.9rem;
   line-height: 1.3;
@@ -128,7 +148,8 @@ a.btn-link:hover {
   padding-bottom: 0.7rem;
 }
 
-.btn-link {
+.btn-link,
+.btn-link2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1rem;
 }
