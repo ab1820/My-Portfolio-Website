@@ -148,6 +148,30 @@ a.btn-link:hover {
   padding-bottom: 0.7rem;
 }
 
+.num-game-text {
+  margin: 0;
+}
+
+.flappy-text {
+  padding-bottom: 3.2rem;
+}
+
+.cities-text {
+  padding-bottom: 1.9rem;
+}
+
+.rating-text {
+  padding-bottom: 0.7rem;
+}
+
+.test-text {
+  padding-bottom: 1.9rem;
+}
+
+.four-text {
+  padding-bottom: 1.2rem;
+}
+
 .btn-link,
 .btn-link2 {
   font-family: 'Montserrat', sans-serif;
