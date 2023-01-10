@@ -88,7 +88,7 @@
     text-shadow: 3px 3px 5px var(--link-color);
   }
 
-  /* .first,
+  .first,
   .second,
   .third,
   .fourth,
@@ -96,7 +96,28 @@
     min-width: 80vw;
     max-width: 80vw;
     text-align: left;
-  } */
+  }
+
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 60vw;
+    max-width: 90vw;
+    align-items: center;
+  }
+
+  .html,
+  .css,
+  .javascript,
+  .jquery,
+  .bootstrap,
+  .git,
+  .node,
+  .react,
+  .mongo {
+    width: 4rem;
+    padding: 1rem;
+  }
 }
 
 /* TABLET SCREENS */
@@ -109,5 +130,9 @@
   .main-content-arrow-1 {
     margin-top: -78rem;
     margin-left: -0.1rem;
+  }
+
+  .nums-and-ones {
+    margin-top: -8rem;
   }
 }
