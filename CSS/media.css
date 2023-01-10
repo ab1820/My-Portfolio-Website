@@ -152,7 +152,7 @@
     min-width: 80vw;
     max-width: 90vw;
     align-items: center;
-    margin-left: 3.5rem;
+    /* margin-left: 3.5rem; */
   }
 
   .html,
@@ -172,7 +172,7 @@
 /* TABLET SCREENS */
 @media only screen and (min-width: 522px) and (max-width: 801px) {
   h1 {
-    margin: auto;
+    /* margin: auto; */
     margin-top: -28rem;
   }
 
@@ -183,5 +183,34 @@
 
   .nums-and-ones {
     margin-top: -8rem;
+  }
+}
+
+/* 522px ISSUES */
+@media only screen and (min-width: 523px) and (max-width: 560px) {
+  h1 {
+    transform: translateY(-102.5rem);
+    width: 30rem;
+  }
+
+  .nums-and-ones {
+    margin-top: -3rem;
+  }
+
+  .main-content-arrow-1 {
+    margin: 0;
+    transform: translateY(-110rem);
+  }
+
+  .skills {
+    max-width: 80vw;
+  }
+
+  .first {
+    margin-top: -109rem;
+  }
+
+  body {
+    overflow: scroll;
   }
 }
