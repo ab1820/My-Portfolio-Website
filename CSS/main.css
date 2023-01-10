@@ -223,3 +223,13 @@ div.fifth img.syntax {
   vertical-align: top;
   margin-left: -2.3rem;
 }
+
+br {
+  display: none;
+}
+
+@media only screen and (min-width: 801px) {
+.nav2 {
+  display: none;
+}
+}

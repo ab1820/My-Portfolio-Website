@@ -1,6 +1,82 @@
-/* PROJECTS CAROUSEL */
-@media screen and (max-width: 640px) {
-  .card-carousel {
-    margin-left: calc((100vw - var(--carousel-min-width) - 40px) / 2)
+
+/* SMALL SCREENS */
+@media only screen and (min-width: 320px) and (max-width: 800px) {
+
+  .my-image {
+    margin-top: 10rem;
+  }
+
+  body {
+    overflow:auto;
+  }
+
+  .purple-box,
+  .nums-and-ones {
+    min-width: 80vw;
+    max-width: 80vw;
+    min-height: 100vh;
+    min-height: 100vh;
+    margin: auto;
+    margin-top: 2rem;
+    position: relative;
+  }
+
+  .grid-container {
+    max-width: 90vw;
+    min-width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    text-align: center;
+  }
+
+  .main-content-arrow-1 {
+    position: absolute;
+    margin-top: -99rem;
+    margin-left: 14.5rem;
+  }
+
+  .nav1 {
+    display: none;
+  }
+
+  .nav2 {
+    margin: auto;
+  }
+
+  h1 {
+    position: absolute;
+    margin-left: 37rem;
+    margin-top: 47rem;
+  }
+
+  br {
+    display: block;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    background: transparent;
+    margin-bottom: 3rem;
+  }
+
+  h2:hover,
+  .dropdown:hover .dropdown-content {
+    display: block;
+    cursor: pointer;
+  }
+
+  h2:hover {
+    transform:translateY(5%);
+    transition: all 250ms ease-in;
+    text-shadow: 3px 3px 5px var(--link-color);
   }
 }
