@@ -170,7 +170,7 @@
 }
 
 /* TABLET SCREENS */
-@media only screen and (min-width: 522px) and (max-width: 801px) {
+@media only screen and (min-width: 561px) and (max-width: 801px) {
   h1 {
     /* margin: auto; */
     margin-top: -28rem;
@@ -191,6 +191,7 @@
   h1 {
     transform: translateY(-102.5rem);
     width: 30rem;
+    margin-top: -28rem;
   }
 
   .nums-and-ones {
