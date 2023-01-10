@@ -3,7 +3,7 @@
 @media only screen and (min-width: 320px) and (max-width: 800px) {
 
   .my-image {
-    margin-top: 5rem;
+    margin-top: 4rem;
   }
 
   body {
@@ -40,6 +40,10 @@
   .main-content-arrow-1 {
     margin-top: -159rem;
     margin-left: -0.3rem;
+  }
+
+  .main-content-arrow-2 {
+    display: none;
   }
 
   .nav1 {
@@ -92,6 +96,7 @@
     text-shadow: 3px 3px 5px var(--link-color);
   }
 
+  /* PARAGRAPHS */
   .first,
   .second,
   .third,
@@ -99,16 +104,54 @@
   .fifth {
     min-width: 80vw;
     max-width: 80vw;
-    text-align: left;
+    text-align: center;
+  }
+
+  .first {
+    padding-top: 4rem;
+    margin-left: -1rem;
+  }
+
+  .second {
+    margin-left: -3rem;
+  }
+
+  div.second p {
+    padding-right: 0.5rem;
+  }
+
+  .third {
+    margin-left: -6rem;
+  }
+
+  div.third p {
+    width: 11rem;
+    vertical-align: middle;
+  }
+
+  div.fourth p {
+    width: 11rem;
+    vertical-align: middle;
+  }
+
+  .fourth {
+    margin-left: -9rem;
+  }
+
+  .fifth {
+    margin-left: -12rem;
+  }
+
+  div.fifth p {
+    padding-right: 2rem;
   }
 
   .skills {
     display: flex;
     flex-wrap: wrap;
-    min-width: 60vw;
+    min-width: 80vw;
     max-width: 90vw;
     align-items: center;
-    padding-top: 4rem;
   }
 
   .html,
