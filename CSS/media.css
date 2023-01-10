@@ -222,3 +222,179 @@
     overflow: scroll;
   }
 }
+
+@media only screen and (min-width: 801px) and (max-width: 1268px) {
+  h1 {
+    /* margin: auto; */
+    /* margin-top: 22rem;
+    width: 33rem; */
+    margin-left: -1rem;
+  }
+
+  body {
+    overflow: auto;
+  }
+
+  .main-content-arrow-1 {
+    /* margin-top: -78rem; */
+    margin-left: -0.1rem;
+    margin-bottom: 0;
+  }
+
+  .nums-and-ones {
+    margin-top: -4rem;
+  }
+
+  /* .skills {
+    padding-top: 2rem;
+    width: 10rem;
+    align-self: center;
+  } */
+
+  .purple-box,
+  .nums-and-ones {
+    min-width: 80vw;
+    max-width: 80vw;
+    /* min-height: 100vh;
+    min-height: 130vh; */
+    margin: auto;
+    margin-top: 2rem;
+    position: relative;
+  }
+
+  .nums-and-ones {
+    margin-top: -0.1rem;
+  }
+
+  .grid-container {
+    max-width: 90vw;
+    min-width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    text-align: center;
+  }
+
+  .nav1 {
+    display: none;
+  }
+
+  .nav2 {
+    margin: auto;
+    display: block;
+  }
+
+  main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-top: 1rem; */
+    align-items: center;
+    min-width: 100vw;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    background: transparent;
+    margin-bottom: 3rem;
+  }
+
+  h2:hover,
+  .dropdown:hover .dropdown-content {
+    display: block;
+    cursor: pointer;
+  }
+
+  h2:hover {
+    transform:translateY(5%);
+    transition: all 250ms ease-in;
+    text-shadow: 3px 3px 5px var(--link-color);
+  }
+
+  /* PARAGRAPHS */
+  .first,
+  .second,
+  .third,
+  .fourth,
+  .fifth {
+    min-width: 80vw;
+    max-width: 80vw;
+    text-align: center;
+  }
+
+  .first {
+    /* padding-top: 4rem; */
+    margin-left: -1rem;
+  }
+
+  .second {
+    margin-left: -3rem;
+  }
+
+  div.second p {
+    padding-right: 0.5rem;
+  }
+
+  .third {
+    margin-left: -6rem;
+  }
+
+  div.third p {
+    width: 11rem;
+    vertical-align: middle;
+  }
+
+  div.fourth p {
+    width: 11rem;
+    vertical-align: middle;
+  }
+
+  .fourth {
+    margin-left: -9rem;
+  }
+
+  .fifth {
+    margin-left: -12rem;
+  }
+
+  div.fifth p {
+    padding-right: 2rem;
+  }
+
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    /* min-width: 90vw; */
+    max-width: 80vw;
+    align-items: center;
+    /* margin-left: 4.5rem; */
+    margin-top: 0;
+    padding-top: 2rem;
+  }
+
+  .html,
+  .css,
+  .javascript,
+  .jquery,
+  .bootstrap,
+  .git,
+  .node,
+  .react,
+  .mongo {
+    width: 4rem;
+    padding: 1rem;
+  }
+
+  .main-content-arrow-2 {
+    display: none;
+  }
+}
