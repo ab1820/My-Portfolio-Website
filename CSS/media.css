@@ -3,7 +3,7 @@
 @media only screen and (min-width: 320px) and (max-width: 800px) {
 
   .my-image {
-    margin-top: 10rem;
+    margin-top: 5rem;
   }
 
   body {
@@ -15,10 +15,14 @@
     min-width: 80vw;
     max-width: 80vw;
     min-height: 100vh;
-    min-height: 100vh;
+    min-height: 130vh;
     margin: auto;
     margin-top: 2rem;
     position: relative;
+  }
+
+  .nums-and-ones {
+    margin-top: -5rem;
   }
 
   .grid-container {
@@ -48,7 +52,7 @@
 
   h1 {
     margin-left: -1rem;
-    margin-top: 47rem;
+    margin-top: 23rem;
   }
 
   main {
@@ -56,7 +60,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* margin: auto; */
+    /* margin-top: 1rem; */
     align-items: center;
     min-width: 100vw;
   }
@@ -104,6 +108,7 @@
     min-width: 60vw;
     max-width: 90vw;
     align-items: center;
+    padding-top: 4rem;
   }
 
   .html,
